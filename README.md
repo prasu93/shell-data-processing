@@ -13,4 +13,9 @@ Note: We use pipe symbol for giving output of one command as input to another co
 * ```tr ' ' '\12' < data.txt | sort | uniq -c | sort -nr``` -> Command for piping the reduced output to sort with -nr flag. 'n' is for numerical comparision and 'r' is for reverse order.
 * ```tr ' ' '\12' < data.txt | sort | uniq -c | sort -nr > result.txt``` -> Command for storing the total output after processing all the preceding commands to result.txt file.
 * In bash shell, up arrow will be used to display the previosuly executed commands.
-* Even the flag is single letter or more than one letter, only one dash will be used. 
+* Even the flag is single letter or more than one letter, only one dash will be used.
+
+## Bash Shell Commands
+* Bash redirect(>): Redirecting the output into a file. Example: ```ls > file1.txt```
+* Bash redirect and append(>>): Redirecting and appending the output into the file.
+* cat: To display the contents of a file.
